@@ -10,43 +10,48 @@
     />
   </head>
   <body>
-    <p>Formular</p>
-    <label>
-      <span>Username</span>
-      <input type="text" name="username" required />
-    </label>
+    <div class="container-general">
+      <p>Formular</p>
+      <div class="container-form">
+        <label>
+          <span>Username</span>
+          <input type="text" name="username" required />
+        </label>
 
-    <label>
-      <span>Password</span>
-      <input type="password" name="password" required />
-    </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" required />
+        </label>
 
-    <label>
-      <span>Profile picture</span>
-      <input type="file" name="avatar" required />
-    </label>
+        <label class="avatar">
+          <span>Profile picture</span>
+          <input type="file" name="avatar" required />
+        </label>
 
-    <label>
-      <span>Birthday</span>
-      <input type="date" name="birthday" required />
-    </label>
+        <label>
+          <span>Birthday</span>
+          <input type="date" name="birthday" required />
+        </label>
 
-    <label>
-      <span>Favorite color</span>
-      <input type="color" name="color" required />
-    </label>
+        <label>
+          <span>Favorite color</span>
+          <input type="color" name="color" required />
+        </label>
 
-    <div class="raddio">
-      <label>
-        <span>Woman</span>
-        <input value="woman" type="radio" name="raddio" required />
-      </label>
+        <div class="raddio">
+          <label>
+            <span>Woman</span>
+            <input value="woman" type="radio" name="raddio" required />
+          </label>
 
-      <label>
-        <span>Man</span>
-        <input value="man" type="radio" name="raddio" required />
-      </label>
+          <label>
+            <span>Man</span>
+            <input value="man" type="radio" name="raddio" required />
+          </label>
+        </div>
+
+        <button type="submit">Done</button>
+      </div>
     </div>
-    <button type="submit">Done</button>
   </body>
 </html>
